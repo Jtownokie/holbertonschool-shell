@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -type f . *~
+rm -r -type f . '*~'
