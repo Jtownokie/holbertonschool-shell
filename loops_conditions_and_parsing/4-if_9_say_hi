@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Prints Hi on 9th Iteration
+
+x=0
+
+while [ $x -lt 10 ]
+do
+	if [ $x -eq 8 ]
+	then
+		echo "Best School"
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	x=$(( x + 1 ))
+done
