@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# LS For Loop
+
+for FILE in *; do echo "${FILE#*-}"; done
