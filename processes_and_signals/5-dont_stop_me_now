@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Kill Task 4 Script
 
-kill "$(pidof ./4-to_infinity_and_beyond)"
+kill "$(ps -aux | grep 4-to_infinity_and_beyond | grep -v grep | awk '{print $2}')"
